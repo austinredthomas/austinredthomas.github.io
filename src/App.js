@@ -1,5 +1,5 @@
 import React from 'react';
-import '@root/global.scss';
+import 'global.scss';
 
 import * as Constants from '@common/constants';
 import * as Utilities from '@common/utilities';
