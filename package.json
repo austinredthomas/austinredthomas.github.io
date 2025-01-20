@@ -1,7 +1,7 @@
 {
   "name": "austinredthomas.github.io",
   "version": "0.1.0",
-  "homepage": "https://austinredthomas.github.io/<repository-name>",
+  "homepage": "https://austinredthomas.github.io/",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
