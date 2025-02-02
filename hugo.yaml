@@ -17,8 +17,13 @@ markup:
   highlight:
     noClasses: false
 
+enableInlineShortcodes: true
+
 menu:
   main:
+    - name: Projects
+      pageRef: /projects
+      weight: 2
     - name: Blog
       pageRef: /blog
       weight: 1
@@ -37,21 +42,46 @@ menu:
       url: "https://github.com/austinredthomas"
       params:
         icon: github
-    - name: Twitter
+    - name: Bluesky
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://austinthomas.bsky.social"
       params:
-        icon: x-twitter
+        icon: bluesky
   
-
+sidebar:
+  - identifier: more
+    name: More
+    params:
+      type: separator
+    weight: 1
+  - identifier: about
+    name: "About"
+    pageRef: "/about"
+    weight: 2
+  - identifier: hugoDocs
+    name: "Hugo Docs ↗"
+    url: "https://gohugo.io/documentation/"
+    weight: 3
+    
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      height: 30
+      width: 30
   
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: full
+    width: normal
+
+  blog:
+  list:
+    displayTags: true
+    # date | lastmod | publishDate | title | weight
+    sortBy: date
+    sortOrder: desc # or "asc"
 
   footer:
     displayCopyright: false

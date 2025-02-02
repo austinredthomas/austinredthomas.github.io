@@ -4,7 +4,11 @@
   <url>
     <loc>//localhost:1313/blog/</loc>
   </url><url>
+    <loc>//localhost:1313/projects/</loc>
+  </url><url>
     <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
@@ -15,8 +19,6 @@
     <loc>//localhost:1313/docs/folder/</loc>
   </url><url>
     <loc>//localhost:1313/docs/folder/leaf/</loc>
-  </url><url>
-    <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>

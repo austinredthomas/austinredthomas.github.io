@@ -1,17 +1,18 @@
 ---
-title: My Site
+Title: austinthomas.life
 toc: false
 ---
 
-This is the landing page.
+Hi, I'm Austin {{< icon "emoji-happy" >}}
+
+I used to work in music, now I work in baseball.<br>
+I plan on making this a home for my digital projects.
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="blog" title="Blog" icon="newspaper" >}}
+  {{< card link="projects" title="Projects" icon="baseball" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
