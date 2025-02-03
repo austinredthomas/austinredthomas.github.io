@@ -76,6 +76,9 @@ params:
     # full (100%), wide (90rem), normal (1280px)
     width: normal
 
+  footer:
+    width: normal
+  
   blog:
   list:
     displayTags: true
