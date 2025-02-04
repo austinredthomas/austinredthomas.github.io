@@ -14,33 +14,5 @@
       
     
     
-    <item>
-      <title>Apology</title>
-      <link>//localhost:1313/blog/blog2/</link>
-      <pubDate>Sun, 02 Feb 2025 04:14:54 -0800</pubDate>
-      
-      <guid>//localhost:1313/blog/blog2/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Hey, listen. I&amp;rsquo;m sorry about the language on my last post. Frankly, it was funny.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Vulgarity</title>
-      <link>//localhost:1313/blog/blog1/</link>
-      <pubDate>Fri, 02 Feb 2024 04:14:54 -0800</pubDate>
-      
-      <guid>//localhost:1313/blog/blog1/</guid>
-      <description>
-        
-        
-        &lt;p&gt;What&amp;rsquo;s up motherfucker - I&amp;rsquo;m blogging.&lt;/p&gt;
-
-      </description>
-    </item>
-    
   </channel>
 </rss>

@@ -3,7 +3,7 @@ title: About
 type: about
 ---
 
-Hi! I work in information technology, but spent a large part of my life touring with bands. I'm generally interested in technology, philosophy, and tinkering.
+Hi! These days I'm mostly thinking about information technology, but I spent a large part of my life touring with bands. I'm generally interested in technology, philosophy, and tinkering.
 
 <br><br><br><br>
 <br><br><br><br>
