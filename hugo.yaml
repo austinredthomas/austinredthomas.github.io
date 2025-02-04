@@ -2,6 +2,12 @@
 # Hugo configuration file
 title: austinthomas.life
 
+enableRobotsTXT: true
+# Parse Git commit
+enableGitInfo: true
+# enableEmoji: false
+hasCJKLanguage: true
+
 # import hextra as module
 module:
   imports:
@@ -44,24 +50,24 @@ menu:
         icon: github
     - name: Bluesky
       weight: 6
-      url: "https://austinthomas.bsky.social"
+      url: "https://bsky.app/profile/austinthomas.life"
       params:
         icon: bluesky
   
-sidebar:
-  - identifier: more
-    name: More
-    params:
-      type: separator
-    weight: 1
-  - identifier: about
-    name: "About"
-    pageRef: "/about"
-    weight: 2
-  - identifier: hugoDocs
-    name: "Hugo Docs ↗"
-    url: "https://gohugo.io/documentation/"
-    weight: 3
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: hugoDocs
+      name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 3
     
 params:
   navbar:
@@ -79,12 +85,16 @@ params:
   footer:
     width: normal
   
+  # Display the last modification date
+  displayUpdatedDate: false
+  dateFormat: "January 2, 2006"
+
   blog:
-  list:
-    displayTags: true
-    # date | lastmod | publishDate | title | weight
-    sortBy: date
-    sortOrder: desc # or "asc"
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
 
   footer:
     displayCopyright: false
