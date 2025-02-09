@@ -1,7 +1,6 @@
 ---
-title: blog
+title: 
 cascade:
     type: blog
 ---
-# What's up
-Welcome to blog town - population, you.
+Stream-of-consciousness ink splatter, technical write-ups, and things of interest.
